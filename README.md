@@ -9,6 +9,7 @@ Let's Travel is an Android mobile application with Firebase backend integration,
 - [Project Structure](#project-structure)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
+- [APIs and Sensors Used](#apis-and-sensors-used)
 - [Setup Instructions](#setup-instructions)
 - [API Endpoints](#api-endpoints)
 - [Key Screens](#key-screens)
@@ -62,7 +63,25 @@ Let's Travel is an Android mobile application with Firebase backend integration,
 
 - **Mobile:** Android (Java), Retrofit, Firebase Auth, Firebase Firestore, Firebase Messaging, Biometric API
 - **Backend:** Node.js, Express, Firebase Admin SDK, Google Auth Library, Firestore, dotenv
-- **Other:** FCM, OpenWeatherMap API, Retrofit, Google Sign-In
+- **Other:** FCM, OpenWeatherMap API, GNews API, Retrofit, Google Sign-In
+
+---
+
+## APIs and Sensors Used
+
+### APIs:
+- **Firebase Authentication** (Email/Password, Google Sign-In)
+- **Firebase Firestore** (Real-time database)
+- **Firebase Cloud Messaging (FCM)** (Push notifications)
+- **Google OAuth 2.0 API** (Google Sign-In support)
+- **Google Location Services API** (Location detection)
+- **OpenWeatherMap API** (Weather data based on location)
+- **GNews API** (Provides travel-related news)
+- **Custom Backend APIs** (Node.js Express server endpoints)
+
+### Android Sensors:
+- **Light Sensor:** Eye-protection mode based on ambient light levels.
+- **Accelerometer Sensor:** Portrait lock detection and user orientation monitoring.
 
 ---
 
@@ -102,7 +121,7 @@ Let's Travel is an Android mobile application with Firebase backend integration,
 | `/auth/google-client-ids` | GET    | Get Google client IDs          |
 | `/admin-secret`           | GET    | Get admin secret               |
 | `/weather-api-key`        | GET    | Get weather API key            |
-| `/trip-news-api-key`      | GET    | Get trip news API key          |
+| `/trip-news-api-key`      | GET    | Get GNews API key              |
 | `/send-notification`      | POST   | Send cloud notification        |
 | `/join-trip`              | POST   | Notify admin of trip join      |
 
@@ -113,7 +132,7 @@ Let's Travel is an Android mobile application with Firebase backend integration,
 - **Main Page:** Displays location, weather, and trip list with refresh.
 - **Trip Detail:** View trip info, join/unjoin trips.
 - **New Trip Dialog:** Admin-only interface for trip creation.
-- **Travel News:** Displays travel-related news using external API.
+- **Travel News:** Displays travel-related news using GNews API.
 
 ---
 
