@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvDetailSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subject"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvDetailDates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date Range" />
+
+        <TextView
+            android:id="@+id/tvDetailVenue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Venue" />
+
+        <TextView
+            android:id="@+id/tvDetailActivities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Activities" />
+
+        <TextView
+            android:id="@+id/tvDetailParticipants"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Participants" />
+
+        <TextView
+            android:id="@+id/tvDetailTransportation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transport" />
+
+        <TextView
+            android:id="@+id/tvDetailDeadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deadline" />
+
+        <TextView
+            android:id="@+id/tvDetailContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact" />
+
+        <TextView
+            android:id="@+id/tvDetailRemark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remark" />
+
+        <LinearLayout
+            android:id="@+id/imageDetailContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp" />
+
+    </LinearLayout>
+</ScrollView>
