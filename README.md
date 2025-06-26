@@ -83,6 +83,8 @@ Let's Travel is an Android mobile application with Firebase backend integration,
 - **Light Sensor:** Eye-protection mode based on ambient light levels.
 - **Accelerometer Sensor:** Portrait lock detection and user orientation monitoring.
 - **GPS Sensor:** Combine Google Location Services API to provide the location data
+- **Camera Sensor:** Capturing images for trip records.
+- **Biometric Sensor:** Fingerprint or face authentication.
 
 ---
 
