@@ -65,7 +65,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String BASE_URL = "http://peter.serveblog.net:3000/";
+    private static final String BASE_URL = "http://localhost:3000/";
     private FirebaseAuth mAuth;
     private static final long SESSION_TIMEOUT = 10 * 60 * 1000;
     private long lastActiveTime;

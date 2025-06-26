@@ -32,7 +32,7 @@ public class TravelNewsActivity extends AppCompatActivity {
     private ArrayList<NewsModel> newsList = new ArrayList<>();
     private SwipeRefreshLayout swipeRefreshLayout;
 
-    private static final String BASE_URL = "http://peter.serveblog.net:3000/"; // Your backend server URL
+    private static final String BASE_URL = "http://localhost:3000/"; // Your backend server URL
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

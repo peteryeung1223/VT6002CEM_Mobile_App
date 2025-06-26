@@ -43,7 +43,7 @@ public class LoginActivity extends AppCompatActivity {
     private Button btnLogin, btnGoogleSignIn, btnSignup, btnBiometricLogin;
     private GoogleSignInClient googleSignInClient;
     private static final int RC_SIGN_IN = 9001;
-    private static final String BASE_URL = "http://peter.serveblog.net:3000/";
+    private static final String BASE_URL = "http://localhost:3000/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

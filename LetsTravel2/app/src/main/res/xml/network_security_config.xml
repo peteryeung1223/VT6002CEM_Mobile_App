@@ -5,7 +5,6 @@
     </domain-config>
     <!-- Allow cleartext for local testing -->
     <domain-config cleartextTrafficPermitted="true">
-        <domain includeSubdomains="true">peter.serveblog.net</domain>
         <domain includeSubdomains="true">localhost</domain>
     </domain-config>
 </network-security-config>

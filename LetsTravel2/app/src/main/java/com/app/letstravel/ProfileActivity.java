@@ -214,7 +214,7 @@ public class ProfileActivity extends AppCompatActivity {
     private void verifyAdminPassword(String enteredPass) {
         new Thread(() -> {
             try {
-                URL url = new URL("http://peter.serveblog.net:3000/admin-secret");
+                URL url = new URL("http://localhost:3000/admin-secret");
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("GET");
 
